@@ -8,3 +8,7 @@ You can find the preview of this example at https://bookdown.org/yihui/bookdown-
 
   - Run `install.packages("bookdown")` to install the bookdown R package.
   - Run `install.packages(c("bslib", "downlit"))` to allow for epub builds.
+
+## Github Actions Publishing
+
+Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites-using-pkgdown-bookdown-and-blogdown.html#deploy-bookdown>
