@@ -15,4 +15,7 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
-bookdown::bs4_book: default
+bookdown::bs4_book:
+  repo:
+    base: https://github.com/PRIMER-e/bookdown-demo
+    branch: main
