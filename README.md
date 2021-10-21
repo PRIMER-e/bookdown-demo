@@ -9,6 +9,7 @@ You can find the preview of this example at https://bookdown.org/yihui/bookdown-
   - Run `install.packages("bookdown")` to install the bookdown R package.
   - Run `install.packages(c("bslib", "downlit"))` to allow for epub builds.
   - Run `install.packages("usethis") for some nice utilities.
+  - Change the LICENSE.
 
 ## GitHub Actions Publishing
 
