@@ -24,3 +24,8 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
   - Rename the GH_TOKEN env variable in "deploy_bookdown.yml" to GITHUB_TOKEN.
   - Move the email setting in "deploy_bookdown.yml" from the "env:" to "with:"
   - Push a commit to trigger the new action.
+  - Remove the Travis-CI config files:
+    - .travis.yml
+    - _build.sh
+    - _deploy.sh
+    - Dockerfile
