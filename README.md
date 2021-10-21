@@ -35,5 +35,4 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
 ## Tweaks
 
   - Remove the unused "_publish.R" re-styling file.
-  - Tweak the GitHub Action so it uses the bs4_book output format.
-  
+  - Tweak the GitHub Action so it uses the bs4_book output format, including the additional dependencies.
