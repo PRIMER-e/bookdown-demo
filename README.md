@@ -18,4 +18,5 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
   - Add a Github Secret EMAIL to the repo conatining a verified email address.
   - Run `usethis::use_github_action(url = "https://raw.githubusercontent.com/ropenscilabs/actions_sandbox/master/.github/workflows/deploy_bookdown.yml")` to create a GitHub action that will build and deploy the site to the gh-pages branch.
 
+  - Change the trigger branch name in "deploy_bookdown.yml" from "master" to "main".
   - Push a commit to trigger the new action.
