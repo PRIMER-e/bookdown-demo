@@ -20,4 +20,6 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
 
   - Change the trigger branch name in "deploy_bookdown.yml" from "master" to "main".
   - Add a "build_dir: _book" option to "deploy_bookdown.yml".
+  - Rename the GH_TOKEN env variable in "deploy_bookdown.yml" to GITHUB_TOKEN.
+  - Move the email setting in "deploy_bookdown.yml" from the "env:" to "with:"
   - Push a commit to trigger the new action.
