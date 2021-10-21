@@ -6,6 +6,8 @@ You can find the preview of this example at https://bookdown.org/yihui/bookdown-
 
 # Record of Changes
 
+## Initial Setup
+
   - Run `install.packages("bookdown")` to install the bookdown R package.
   - Run `install.packages(c("bslib", "downlit"))` to allow for epub builds.
   - Run `install.packages("usethis") for some nice utilities.
@@ -29,3 +31,8 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
     - _build.sh
     - _deploy.sh
     - Dockerfile
+    
+## Tweaks
+
+  - Remove the unused "_publish.R" re-styling file.
+  
