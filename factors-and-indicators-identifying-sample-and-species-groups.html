@@ -4,15 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 4 Methods | PRIMER Manual</title>
+<title>Chapter 4 Factors (and Indicators), identifying sample (and species) groups | PRIMER Manual</title>
 <meta name="author" content="Andrew Punnett">
 <meta name="description" content="We describe our methods in this chapter. Math can be added in body using usual syntax like this  4.1 math example \(p\) is unknown but expected to be around 1/3. Standard error will be...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 4 Methods | PRIMER Manual">
+<meta property="og:title" content="Chapter 4 Factors (and Indicators), identifying sample (and species) groups | PRIMER Manual">
 <meta property="og:type" content="book">
 <meta property="og:description" content="We describe our methods in this chapter. Math can be added in body using usual syntax like this  4.1 math example \(p\) is unknown but expected to be around 1/3. Standard error will be...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 4 Methods | PRIMER Manual">
+<meta name="twitter:title" content="Chapter 4 Factors (and Indicators), identifying sample (and species) groups | PRIMER Manual">
 <meta name="twitter:description" content="We describe our methods in this chapter. Math can be added in body using usual syntax like this  4.1 math example \(p\) is unknown but expected to be around 1/3. Standard error will be...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -39,12 +39,27 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> Prerequisites</a></li>
+<li><a class="" href="index.html"><span class="header-section-number">1</span> Overview</a></li>
 <li><a class="" href="intro.html"><span class="header-section-number">2</span> Introduction</a></li>
-<li><a class="" href="literature.html"><span class="header-section-number">3</span> Literature</a></li>
-<li><a class="active" href="methods.html"><span class="header-section-number">4</span> Methods</a></li>
-<li><a class="" href="applications.html"><span class="header-section-number">5</span> Applications</a></li>
-<li><a class="" href="final-words.html"><span class="header-section-number">6</span> Final Words</a></li>
+<li><a class="" href="opening-editing-and-saving-data-file-edit.html"><span class="header-section-number">3</span> Opening, editing and saving data (File, Edit)</a></li>
+<li><a class="active" href="factors-and-indicators-identifying-sample-and-species-groups.html"><span class="header-section-number">4</span> Factors (and Indicators), identifying sample (and species) groups</a></li>
+<li><a class="" href="highlighting-and-selection-select.html"><span class="header-section-number">5</span> Highlighting and selection (Select)</a></li>
+<li><a class="" href="pre-treatment-options.html"><span class="header-section-number">6</span> Pre-treatment options</a></li>
+<li><a class="" href="resemblance-similarities-dissimilarities-and-distances.html"><span class="header-section-number">7</span> Resemblance: similarities, dissimilarities and distances</a></li>
+<li><a class="" href="clustering-methods-cluster-simprof-unctree-krcluster.html"><span class="header-section-number">8</span> Clustering methods (CLUSTER, SIMPROF, UNCTREE, kRCLUSTER)</a></li>
+<li><a class="" href="managing-the-workspace-and-plotting-window-file-view-multi-plot-plots.html"><span class="header-section-number">9</span> Managing the workspace and plotting (Window, File, View, Multi Plot, Plots)</a></li>
+<li><a class="" href="multi-dimensional-scaling-non-metric-nmds-metric-mmds-combined-mds.html"><span class="header-section-number">10</span> Multi-dimensional scaling (Non-metric nMDS, Metric mMDS, Combined MDS)</a></li>
+<li><a class="" href="analysis-of-similarity-tests-unordered-and-ordered-anosim.html"><span class="header-section-number">11</span> Analysis of Similarity tests (unordered and ordered ANOSIM)</a></li>
+<li><a class="" href="wizards-and-species-analyses-basic-mva-coherence-plots-matrix-display-simper.html"><span class="header-section-number">12</span> Wizards and species analyses (Basic MVA, Coherence plots, Matrix display, SIMPER)</a></li>
+<li><a class="" href="general-data-manipulation-tools-further-pre-treatment.html"><span class="header-section-number">13</span> General data manipulation (Tools, further Pre-treatment)</a></li>
+<li><a class="" href="analysing-environmental-variables-draftsman-plot-pca.html"><span class="header-section-number">14</span> Analysing environmental variables (Draftsman Plot, PCA)</a></li>
+<li><a class="" href="linking-assemblage-to-environment-best-linktree.html"><span class="header-section-number">15</span> Linking assemblage to environment (BEST, LINKTREE)</a></li>
+<li><a class="" href="further-matching-of-multivariate-patterns-relate-2stage-best-mvdisp.html"><span class="header-section-number">16</span> Further matching of multivariate patterns (RELATE, 2STAGE, BEST + MVDISP)</a></li>
+<li><a class="" href="biodiversity-measures-and-tests-diverse-taxdtest.html"><span class="header-section-number">17</span> Biodiversity measures and tests (DIVERSE, TAXDTEST)</a></li>
+<li><a class="" href="diversity-curves-geometric-class-dominance-and-species-accumulation-plots.html"><span class="header-section-number">18</span> Diversity curves (Geometric Class, Dominance and Species-Accumulation Plots)</a></li>
+<li><a class="" href="bootstrap-regions-for-group-means-bootstrap-averages.html"><span class="header-section-number">19</span> Bootstrap regions for group means (Bootstrap averages)</a></li>
+<li><a class="" href="index-to-data-sets.html"><span class="header-section-number">20</span> Index to data sets</a></li>
+<li><a class="" href="acknowledgements.html"><span class="header-section-number">21</span> Acknowledgements</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -53,9 +68,9 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="methods" class="section level1">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="factors-and-indicators-identifying-sample-and-species-groups" class="section level1">
 <h1>
-<span class="header-section-number">4</span> Methods<a class="anchor" aria-label="anchor" href="#methods"><i class="fas fa-link"></i></a>
+<span class="header-section-number">4</span> Factors (and Indicators), identifying sample (and species) groups<a class="anchor" aria-label="anchor" href="#factors-and-indicators-identifying-sample-and-species-groups"><i class="fas fa-link"></i></a>
 </h1>
 <p>We describe our methods in this chapter.</p>
 <p>Math can be added in body using usual syntax like this</p>
@@ -76,12 +91,12 @@ SE = \sqrt(\frac{p(1-p)}{n}) \approx \sqrt{\frac{1/3 (1 - 1/3)} {300}} = 0.027
 </div>
 
   <div class="chapter-nav">
-<div class="prev"><a href="literature.html"><span class="header-section-number">3</span> Literature</a></div>
-<div class="next"><a href="applications.html"><span class="header-section-number">5</span> Applications</a></div>
+<div class="prev"><a href="opening-editing-and-saving-data-file-edit.html"><span class="header-section-number">3</span> Opening, editing and saving data (File, Edit)</a></div>
+<div class="next"><a href="highlighting-and-selection-select.html"><span class="header-section-number">5</span> Highlighting and selection (Select)</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#methods"><span class="header-section-number">4</span> Methods</a></li>
+<li><a class="nav-link" href="#factors-and-indicators-identifying-sample-and-species-groups"><span class="header-section-number">4</span> Factors (and Indicators), identifying sample (and species) groups</a></li>
 <li><a class="nav-link" href="#math-example"><span class="header-section-number">4.1</span> math example</a></li>
 </ul>
 
