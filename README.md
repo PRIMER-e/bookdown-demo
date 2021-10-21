@@ -19,4 +19,5 @@ Follow the instructions at: <https://orchid00.github.io/actions_sandbox/websites
   - Run `usethis::use_github_action(url = "https://raw.githubusercontent.com/ropenscilabs/actions_sandbox/master/.github/workflows/deploy_bookdown.yml")` to create a GitHub action that will build and deploy the site to the gh-pages branch.
 
   - Change the trigger branch name in "deploy_bookdown.yml" from "master" to "main".
+  - Add a "build_dir: _book" option to "deploy_bookdown.yml".
   - Push a commit to trigger the new action.
