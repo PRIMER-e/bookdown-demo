@@ -1,0 +1,3 @@
+# Resemblance: similarities, dissimilarities and distances 
+
+We have finished a nice book.

@@ -1,4 +1,4 @@
-# Methods
+# Factors (and Indicators), identifying sample (and species) groups 
 
 We describe our methods in this chapter.
 

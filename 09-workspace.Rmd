@@ -1,0 +1,1 @@
+# Managing the workspace and plotting (Window, File, View, Multi Plot, Plots)
